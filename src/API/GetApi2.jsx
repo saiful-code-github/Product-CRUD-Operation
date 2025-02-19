@@ -54,7 +54,10 @@ export const GetApi2 = () => {
 
     //edit
     const Edit = (item) => {
-        setNewTodo(item); 
+        setNewTodo({
+            ...item,
+            rating: item.rating.rate || item.rating
+        }); 
         setEditId(item.id)
     }
     //handleRating

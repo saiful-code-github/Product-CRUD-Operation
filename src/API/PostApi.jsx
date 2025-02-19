@@ -91,7 +91,7 @@ const updateData = async() => {
                       </div>
                       <div>
                         <button type="submit" className={`${editId ? "bg-yellow-600" : "bg-blue-600"}
-                        text-white py-[10px] px-[25px] mt-3 outline-0`}>{editId ? "Update" : "Add"}</button>
+                        text-white py-[10px] px-[25px] mt-3 outline-0`}>{ editId ? "Update" : "Add" }</button>
                       </div>
                   </form>
             </CContainer>
